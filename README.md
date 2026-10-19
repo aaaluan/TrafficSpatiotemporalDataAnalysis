@@ -2,7 +2,7 @@
 
 python3.9+、pandas、numpy、matplotlib、streamlit
 
-## 目录结构（与课件一致）
+## 目录结构
 
 ```
 traffic_project/
@@ -51,7 +51,7 @@ python main.py
 streamlit run streamlit_app.py
 ```
 
-## 模块说明（全部文件，和课件一一对应）
+## 模块说明
 
 - config.py：全局配置文件，统一存放文件路径、各类阈值参数，其它模块直接导入。
 - utils.py：公共工具模块，包含 Haversine 球面距离计算、时间处理、文件读写、日志打印、计时器工具。
